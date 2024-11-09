@@ -5,7 +5,7 @@
  * @return {number[]}
  */
 
-var twoSum = function (nums, target) {
+const twoSum = function (nums, target) {
   // ** Approach 1: Brute Force **
 
   // for(let i in nums){
@@ -31,8 +31,8 @@ var twoSum = function (nums, target) {
   return [];
 };
 
-console.log(twoSum([2, 7, 11, 15], 9));
-
-console.log(twoSum([3, 2, 4], 6));
-
-console.log(twoSum([3, 3], 6));
+export const main = () => {
+  console.log(twoSum([2, 7, 11, 15], 9));
+  console.log(twoSum([3, 2, 4], 6));
+  console.log(twoSum([3, 3], 6));
+};
