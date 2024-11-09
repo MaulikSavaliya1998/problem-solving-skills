@@ -13,7 +13,7 @@ var twoSum = function (nums, target) {
   //     const ind = nums.lastIndexOf(rem)
   //     if(i < ind)
   //         return [+i,ind]
-  // }
+  // } //Ravani@1998 savaliyamaulik98@gmail.com
 
   // ** Approach 2: Hash Map **
 
