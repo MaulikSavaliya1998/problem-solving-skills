@@ -4,7 +4,7 @@
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
  */
-var setZeroes = function (matrix) {
+var setZeroes = function (arry) {
 
   // ** Approach 4: Optimal **
 
@@ -123,10 +123,14 @@ var setZeroes = function (matrix) {
   // }
   // ** Approach 1: Brute Force **
 
-  return matrix
 };
 
 export const main = () => {
+  console.log(setZeroes([
+    [1,1,1],
+    [1,0,1],
+    [1,1,1]]
+  ))
   console.log(
     setZeroes([
       [0,0,0,5],
