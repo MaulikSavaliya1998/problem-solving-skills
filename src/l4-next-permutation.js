@@ -32,9 +32,8 @@ var nextPermutation = function(nums) {
 		swap(min,index)
 		sorting(index+1)
 	}else{
-		sorting(0)
+		 nums.reverse()
 	}
-	return nums
 };
 
 export const main = () => {
