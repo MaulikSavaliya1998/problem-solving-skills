@@ -8,6 +8,7 @@
 // import { main } from "./l8-sort-colors.js";
 // import { main } from "./l9-best-time-to-buy-and-sell-stock.js";
 // import { main } from "./l10-rotate-image.js";
-import { main } from "./l11-merge-intervals.js";
+// import { main } from "./l11-merge-intervals.js";
+import { main } from "./l12-merge-sorted-array.js";
 
 main();
