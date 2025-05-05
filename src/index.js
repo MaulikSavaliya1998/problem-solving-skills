@@ -11,6 +11,7 @@
 // import { main } from "./l11-merge-intervals.js";
 // import { main } from "./l12-merge-sorted-array.js";
 // import { main } from "./l13-find-the-duplicate-number.js";
-import { main } from "./l14-subtract-the-product-and-sum-of-digits-of-an-integer.js";
+// import { main } from "./l14-subtract-the-product-and-sum-of-digits-of-an-integer.js";
+import { main } from "./l15-number-of-1-bits.js";
 
 main();
